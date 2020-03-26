@@ -37,7 +37,7 @@ end
 
 def hit?
   # code hit? here
-  user_input = ["h", "s"]
+  possible_input = ["h", "s"]
   prompt_user
   user_input = get_user_input()
 end
