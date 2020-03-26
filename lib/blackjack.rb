@@ -39,7 +39,9 @@ def hit?
   # code hit? here
   possible_input = ["h", "s"]
   prompt_user
-  user_input = get_user_input()
+  user_input = get_user_input
+  
+  
 end
 
 def invalid_command
