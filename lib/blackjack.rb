@@ -49,12 +49,10 @@ def hit?(total)
   
   if user_input = "h"
     total += deal_card
+    elsif user_input = "s"
+      total
   end
   total
-end
-
-def stay(total)
-  
 end
 
 def invalid_command
