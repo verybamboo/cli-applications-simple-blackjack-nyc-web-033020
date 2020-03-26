@@ -53,7 +53,9 @@ def hit?(total)
   total
 end
 
-def stay
+def stay(total)
+  
+end
 
 def invalid_command
   # code invalid_command here
