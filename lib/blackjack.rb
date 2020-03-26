@@ -48,7 +48,7 @@ def hit?
   end
   
   if user_input = "h"
-    deal
+    total += deal_card
     
 end
 
