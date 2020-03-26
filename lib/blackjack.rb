@@ -37,7 +37,7 @@ end
 
 def hit?
   # code hit? here
-  
+  user_input
 end
 
 def invalid_command
