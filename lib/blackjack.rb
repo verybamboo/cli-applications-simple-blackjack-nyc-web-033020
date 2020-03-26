@@ -47,7 +47,8 @@ def hit?
     user_input = get_user_input
   end
   
-  if user_input = possible_input
+  if user_input = "h"
+    deal
     
 end
 
