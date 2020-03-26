@@ -41,7 +41,7 @@ def hit?
   prompt_user
   user_input = get_user_input
   
-  until possible_input?
+  until possible_input.
 end
 
 def invalid_command
