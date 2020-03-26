@@ -44,7 +44,8 @@ def hit?
   until possible_input.include?(user_input)
     invalid_command
     prompt_user
-  
+    user_input = get_user_input
+    
 end
 
 def invalid_command
